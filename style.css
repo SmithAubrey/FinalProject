@@ -1,1 +1,29 @@
+body {
+ font-family: Helvetica Neue, sans-serif;
+ color: #2a044f;
+ background-color: #e4c2ff;
+}
 
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.slides img {
+  display: none;
+  width: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.slides img.active {
+  display: block; 
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
