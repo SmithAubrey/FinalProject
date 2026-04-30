@@ -17,6 +17,20 @@ header {
   object-align: center;
   background-color: #542b8a;
   color: white;
-  padding: 1.5rem;
+  padding: 0.5rem;
   align-items: center;
+}
+
+.artwork25 {
+display: grid;
+ grid-template-columns: repeat(2, 1fr)
+ grid-template-rows: 500px;
+ justify-content: center;
+ align-items: start;
+}
+
+.portfoliotext {
+background-img: url(/images/galaxypicture.jpg);
+ background-size: cover;
+ align-items: end;
 }
